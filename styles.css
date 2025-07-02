@@ -61,6 +61,7 @@ img{
 }
 
 .block1{
+    overflow-wrap: anywhere;
     justify-content: center;
     align-content: center;
     display: grid;
@@ -76,6 +77,7 @@ img{
 .block2{
     justify-content: center;
     align-content: center;
+    word-wrap: break-word;
     display: grid;
     width: 50%;
     background-color: var(--block2);
